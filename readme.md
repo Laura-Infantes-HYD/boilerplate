@@ -5,6 +5,6 @@
 
 ## Compiling
 
-- npm run dev command compiles developement code.
-- npm run build command compiles production code.
-- npm run dev:css command compiles development code with css inlined. Useful view full changes by pasting output in the browser console.
+- _npm run dev_: compiles developement code.
+- _npm run build_: compiles production code.
+- _npm run dev:css_: compiles development code with css inlined. Useful view full changes by pasting output in the browser console.
