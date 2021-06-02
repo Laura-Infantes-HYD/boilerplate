@@ -2,7 +2,8 @@ const path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-module.exports = (env) => {
+module.exports = (env, options) => {
+
     return {
         entry: {
             v1: "./src/V1/index.js",
@@ -38,7 +39,7 @@ module.exports = (env) => {
                 {
                     test: /\.scss$/,
                     use: [
-                        (env === "production" || env === "development") 
+                        (env.development || env.production) 
                         ? MiniCssExtractPlugin.loader 
                         : "style-loader", 
                         "css-loader",
