@@ -1,5 +1,6 @@
 import './style.scss';
 import pollForEl from '../helpers/pollForEl';
+import _onLoad from './components/_onLoad';
 
 
 // Test name to be added to ./style.scss and init function below
@@ -15,7 +16,7 @@ function init() {
 
     document.body.classList.add(testName);
 
-    //add changes here
+    _onLoad()
 
 }
 
