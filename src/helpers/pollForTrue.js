@@ -17,7 +17,6 @@ export default (cb, timeOutMs = 15000) => {
         const wfelem = () => {
             
             if(timeOutCount > timeOutMs){ clearInterval(interval); return }
-            console.log('cb: ', cb());
             
             (cb())
                 ? resolve(true)
