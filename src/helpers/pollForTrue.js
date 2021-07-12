@@ -1,7 +1,6 @@
 /**
  * @param {query: string} - an elements selector
  * @param {timeOut: number} - time in ms after which the poller will stop looking for the element
- * 
  */
 
 export default (cb, timeOutMs = 15000) => {

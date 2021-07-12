@@ -18,3 +18,8 @@
 ## Link to designs
 
 ## Live preview link snippet usage
+https://docs.google.com/document/d/1oz3RDQpB1GjMAiWOtyJP5hz1U11bzVOrAKpGx-u3vTY/edit?usp=sharing
+
+
+## Live to live reload snippet usage
+https://docs.google.com/document/d/1D1Vzw9VlRgUebU3BzkVobjfU0nYazAOOyF3hd-CASFE/edit?usp=sharing
